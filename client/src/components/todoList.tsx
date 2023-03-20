@@ -1,4 +1,4 @@
-import { TodoItemType } from "@utils/types";
+import { TodoItemType } from "src/utils/types";
 import React from "react";
 import { RemoveButton } from "./buttonContainer";
 import { Title } from "./titleContainer";

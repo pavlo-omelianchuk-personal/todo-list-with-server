@@ -1,7 +1,7 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { createTodo, deleteTodo, fetchTodos, updateTodo } from '../services/requests';
-import { TodoIdType, TodoItemType } from '../utils/types';
-import { TodosContext } from './todosContext';
+import React, { useEffect, useMemo, useState } from "react";
+import { createTodo, deleteTodo, fetchTodos, updateTodo } from "../services/requests";
+import { TodoIdType, TodoItemType } from "../utils/types";
+import { TodosContext } from "./todosContext";
 
 export const TodosProvider = ({ children }: { children: React.ReactNode }) => {
   const [todos, setTodos] = useState<TodoItemType[] | null>(null);

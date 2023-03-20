@@ -1,5 +1,5 @@
 import { Button } from "@material-tailwind/react"
-import { TodoIdType } from "@utils/types"
+import { TodoIdType } from "src/utils/types"
 import { useTodos } from "../context/index"
 
 export const RemoveButton = ({ id }: TodoIdType) => {

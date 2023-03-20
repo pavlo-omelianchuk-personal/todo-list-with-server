@@ -1,10 +1,10 @@
-import './App.css';
-import { TodoListContainer } from './components';
+import "./App.css";
+import { TodoListContainer } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <div className='flex justify-center items-center flex-col font-mono'>
+      <div className="flex justify-center items-center flex-col font-mono">
         <TodoListContainer />
       </div>
     </div>

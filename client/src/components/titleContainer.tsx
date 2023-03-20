@@ -1,6 +1,6 @@
 import { Tooltip } from "@material-tailwind/react";
-import { TitleProps } from "@utils/types";
-import React from 'react';
+import React from "react";
+import { TitleProps } from "src/utils/types";
 import { useTodos } from "../context/index";
 
 export const Title: React.FC<TitleProps> = ({ todo }) => {
